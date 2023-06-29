@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    color-scheme: dark light;
+    font-family: sans-serif;
+    color: #FF6B6B;
+}
+h1{
+    margin: 2rem;
+    font-size: 5rem;
+}
+form{
+    width: calc(80vw - 20px);
+    height: calc(100vh - 10rem);
+    text-align: center;
+    margin: auto;
+}
+
+input{
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    font-family: sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    margin: 6rem auto;
+    border-radius: 36px;
+}
+button{
+    background-color: #FF6B6B;
+    outline: none;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 36px;
+    font-size: 1.5rem;
+}
